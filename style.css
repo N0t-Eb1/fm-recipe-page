@@ -71,6 +71,7 @@ h1,
 h2 {
     font-family: "Young Serif", sans-serif;
     line-height: 1;
+    font-weight: 300;
 }
 
 :is(.stack, .cluster) {
