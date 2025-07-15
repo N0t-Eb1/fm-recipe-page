@@ -71,7 +71,7 @@ h1,
 h2 {
     font-family: "Young Serif", sans-serif;
     line-height: 1;
-    font-weight: 300;
+    font-weight: var(--fw-400);
 }
 
 :is(.stack, .cluster) {
@@ -134,6 +134,7 @@ p > span {
 
 .exeption {
     font-size: var(--fs-3);
+    font-weight: var(--fw-600);
     font-family: "Outfit", sans-serif;
     color: var(--rose-800);
 }
