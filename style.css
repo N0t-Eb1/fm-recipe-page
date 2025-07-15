@@ -83,7 +83,7 @@ h2 {
     }
 
     &[data-space="28"] {
-        gap: var(--space-16);
+        gap: calc(var(--space-16) + 0.3rem);
     }
 
     &[data-space="24"] {
